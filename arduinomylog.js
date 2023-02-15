@@ -2,9 +2,9 @@ const { Api, JsonRpc, RpcError } = require('eosjs');
 const { JsSignatureProvider } = require('eosjs/dist/eosjs-jssig');
 const fetch = require('node-fetch');
 const { TextEncoder, TextDecoder } = require('util');
-const defaultPrivateKey = "[YOUR_PRIVATE_KEY_HERE]"; // active key on Jungle3 TestNet (eosio v.2.1.0) for arduinomylog
+const defaultPrivateKey = "[YOUR_PRIVATE_KEY_HERE]"; // PRIVATE key of YOUR ACCOUNT on Proton Testnet
 const signatureProvider = new JsSignatureProvider([defaultPrivateKey]);
-const rpc = new JsonRpc('https://[API_ENDPOINT]', { fetch }); // a valid API Endpoint on Jungle3 TestNet
+const rpc = new JsonRpc('https://[API_ENDPOINT]', { fetch }); // a valid API Endpoint on Proton TestNet
 const api = new Api({ rpc, signatureProvider, textDecoder: new TextDecoder(), textEncoder: new TextEncoder() });
 const UTENTEauth = "arduinomylog";
 
