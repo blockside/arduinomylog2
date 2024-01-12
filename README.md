@@ -121,7 +121,7 @@ node arduinomylog.js
 
 See your data on blockchain (they are accessible to anyone) by visiting a blockchain explorer; in this case I'll use:
 
-https://testnet.protonscan.io/account/arduinomylog?loadContract=true&tab=Tables&account=arduinomylog&scope=arduinomylog&limit=100&table=logs
+https://testnet.explorer.xprnetwork.org/account/arduinomylog
 
 
 ## Optional
