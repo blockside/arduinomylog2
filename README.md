@@ -82,7 +82,7 @@ npm -v
 
 7.20.6
 
-* check tha EOSJS is installed (for this example we use v22.1.0 Release)
+* check that EOSJS is installed (for this example we use v22.1.0 Release)
 
 * insert your account's Private key, an API Endoint and your Arduino's IP, into file arduinomylog.js ; then change it's permissions:
 
